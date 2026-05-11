@@ -1,0 +1,49 @@
+# XRCore Voice
+
+[![Unity](https://img.shields.io/badge/Unity-2022%2B%20%7C%20Unity%206-black)](https://unity.com/)
+[![Module](https://img.shields.io/badge/Module-Voice%20Layer-2563eb)](#)
+[![Depends](https://img.shields.io/badge/Depends-SDK%20%2B%20Context-7a3cff)](#)
+[![Contract](https://img.shields.io/badge/Contract-Events%20%2B%20State-0ea5e9)](#)
+
+Voice interaction module for XRCore guided training ecosystems.
+
+## Value in 2 Minutes
+
+1. Install XRCore SDK + Voice module.
+2. Add the Voice bridge component.
+3. Configure a basic voice profile.
+4. Publish a sample voice command event and validate state update.
+
+## What It Adds
+
+- voice intent event contracts
+- profile-driven voice thresholds
+- runtime bridge for event bus publication
+- optional context state synchronization
+
+## Ecosystem Position
+
+```text
+XRCore SDK + Context
+        ↓
+XRCore Voice
+        ↓
+LLBridge / Analytics consumers
+```
+
+## Related XRCore Modules
+
+- Hub: [splibiplay](https://github.com/splibiplay/splibiplay)
+- SDK: [xrcore-sdk](https://github.com/splibiplay/xrcore-sdk)
+- Training Toolkit: [xrcore-training-toolkit](https://github.com/splibiplay/xrcore-training-toolkit)
+- Assessment: [xrcore-assessment](https://github.com/splibiplay/xrcore-assessment)
+- Authoring: [xrcore-training-authoring](https://github.com/splibiplay/xrcore-training-authoring)
+- VisionPlus: [xrcore-visionplus](https://github.com/splibiplay/xrcore-visionplus)
+- LLBridge: [xrcore-llbridge](https://github.com/splibiplay/xrcore-llbridge)
+- Analytics: [xrcore-analytics](https://github.com/splibiplay/xrcore-analytics)
+
+## Commercial Packaging
+
+- Sold as standalone intelligence extension.
+- Included in XRCore Complete Pack.
+- Recommended for natural instruction and voice-driven training flows.
